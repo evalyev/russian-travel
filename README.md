@@ -1,5 +1,8 @@
 # Проект 3: Путешествие по России
 
+**Ссылка на проект на gh-pages**
+[Ссылка на проект](https://evalyev.github.io/russian-travel/index.html)
+
 ### Обзор
 * Интро
 * Figma
