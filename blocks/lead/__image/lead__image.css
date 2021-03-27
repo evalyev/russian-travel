@@ -1,11 +1,4 @@
 .lead__image {
     width: 100%;
     margin-top: 64px;
-    position: relative;
-    background-image: url(../../../images/lead__image1.png);
-    background-size: cover;
-    padding-top: 90px;
-    padding-bottom: 262px;
-    padding-right: 23.455px;
-    padding-left: 23.455px;
 }
