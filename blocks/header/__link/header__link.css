@@ -1,0 +1,6 @@
+@media (max-width: 320px) {
+    .header__link {
+        width: 142px;
+        height: 42px;
+    }
+}
