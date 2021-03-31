@@ -1,6 +1,23 @@
 .footer {
     display: flex;
-    width: 1184px;
+    width: calc(100% - 96px);
     justify-content: space-between;
     margin: 92px 0 24px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin: 98px 0 24px;
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 730px) {
+    .footer {
+        align-self: flex-start;
+        flex-direction: column;
+        margin: 64px 0 24px;
+        margin-left: 16px;
+        width: 186px;
+    }
 }
