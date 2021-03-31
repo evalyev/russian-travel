@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: 460px 484px;
+    grid-template-columns: calc(100% * 460 / 984) calc(100% * 484 / 984);
     grid-template-rows: repeat(2);
     grid-template-areas: "title website" "image paragraphs";
     row-gap: 48px;

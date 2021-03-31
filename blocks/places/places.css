@@ -2,4 +2,23 @@
     margin-top: 92px;
     display: grid;
     row-gap: 80px;
+    width: calc(100% - 296px);
+}
+
+@media (max-width: 1024px) {
+    .places {
+        width: calc(100% - 96px);
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        width: calc(100% -48px);
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        width: 100%;
+    }
 }
