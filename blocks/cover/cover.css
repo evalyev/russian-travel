@@ -24,6 +24,12 @@
     opacity: 0.3;
     z-index: -1;
     background-size: cover;
+    transition: opacity 0.3s;
+}
+
+.cover:hover::after {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
