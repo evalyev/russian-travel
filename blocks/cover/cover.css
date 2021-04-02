@@ -1,42 +1,11 @@
 .cover {
     margin-top: 92px;
     width: calc(100% - 96px);
-    padding-bottom: calc(((100% - 96px) * 740 / 1184 - 250px) / 2);
-    padding-top: calc(((100% - 96px) * 740 / 1184 - 250px) / 2);
-    background-image: url(../../images/cover__background.png);
-    background-size: 100% 100%;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cover::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    z-index: -1;
-    background-size: cover;
-    transition: opacity 0.3s;
-}
-
-.cover:hover::after {
-    opacity: 0.8;
-    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
     .cover {
         width: 100%;
-        padding-bottom: calc((100% * 740 / 1184 - 250px) / 2);
-        padding-top: calc((100% * 740 / 1184 - 250px) / 2);
     }
 }
 
@@ -48,8 +17,6 @@
 
 @media (max-width: 600px) {
     .cover {
-        padding-bottom: calc((100% * 740 / 1184 - 134px) / 2);
-        padding-top: calc((100% * 740 / 1184 - 134px) / 2);
         margin-top: 66px;
     }
 }
