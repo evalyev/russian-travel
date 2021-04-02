@@ -7,6 +7,8 @@
     line-height: 12px;
     color: #AAAAAA;
     margin-bottom: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
