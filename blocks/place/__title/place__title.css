@@ -15,8 +15,9 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 590px) {
     .place__title {
+        width: calc(100% - 16px);
         font-size: 32px;
         line-height: 35px;
     }

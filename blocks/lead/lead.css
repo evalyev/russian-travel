@@ -6,9 +6,16 @@
     width: calc(100% - 296px);
 }
 
+@media (min-width: 1280px) {
+    .lead {
+        width: 984px;
+    }
+}
+
 @media (max-width: 1024px) {
     .lead {
         width: calc(100% - 96px);
+        margin-top: 48px;
     }
 }
 

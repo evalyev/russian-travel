@@ -1,0 +1,5 @@
+@media (max-width: 590px) {
+    .place__paragraphs-container {
+        width: calc(100% - 16px);
+    }
+}

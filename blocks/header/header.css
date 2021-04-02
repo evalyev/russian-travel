@@ -6,6 +6,12 @@
     align-content: flex-end;
 }
 
+@media (min-width: 1280px) {
+    .header {
+        width: 1184px;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         width: calc(100% - 48px);

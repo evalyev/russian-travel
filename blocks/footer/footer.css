@@ -5,6 +5,12 @@
     margin: 92px 0 24px;
 }
 
+@media (min-width: 1280px) {
+    .footer {
+        width: 1184px;
+    }
+}
+
 @media (max-width: 768px) {
     .footer {
         margin: 98px 0 24px;

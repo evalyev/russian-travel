@@ -5,7 +5,13 @@
     width: calc(100% - 296px);
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1280px) {
+    .places {
+        width: 984px;
+    }
+}
+
+@media (max-width: 1125px) {
     .places {
         width: calc(100% - 96px);
     }
@@ -14,11 +20,13 @@
 @media (max-width: 768px) {
     .places {
         width: calc(100% - 48px);
+        margin-top: 88px;
     }
 }
 
 @media (max-width: 590px) {
     .places {
         width: 100%;
+        margin-top: 64px;
     }
 }

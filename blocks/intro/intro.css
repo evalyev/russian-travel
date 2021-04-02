@@ -4,6 +4,14 @@
     align-self: flex-start;
 }
 
+@media (min-width: 1280px) {
+    .intro {
+        align-self: center;
+        width: 984px;
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 1024px) {
     .intro {
         margin-left: 48px;
@@ -15,11 +23,13 @@
         margin-left: 0;
         width: calc(100% - 48px);
         align-self: center;
+        margin-top: 88px;
     }
 }
 
 @media (max-width: 320px) {
     .intro {
         width: calc(100% - 32px);
+        margin-top: 64px;
     }
 }
