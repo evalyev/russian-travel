@@ -13,7 +13,6 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        width: 288px;
-        white-space: pre-line;
+        width: 240px;
     }
 }
